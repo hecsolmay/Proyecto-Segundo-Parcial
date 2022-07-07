@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Font1';
+    src: url(/Fonts/barnie-font/Barnie-Wy2xO.ttf);
+}
+
+* {
+    font-family: 'Font1';
+}
+
+img {
+    width: 100%;
+}
+
+
+
+/* Barra de navegacion */
+
+nav {
+    font-family: 'Font1';
+    font-size: larger;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav .container-fluid {
+    height: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+}
+
+nav .nav-item {
+    margin-left: 20px;
+    font-size: larger;
+    border-radius: 30px;
+}
+
+nav .nav-link.active {
+    font-weight: bold;
+    background: #007bff;
+    color: #fff;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+
+nav .container-fluid li {
+    transition: .3s all ease;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    margin-right: 10px;
+}
+
+
+nav .container-fluid .collapse.navbar-collapse .navbar-nav li:hover {
+    background: #007bff;
+    color: #fff;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+#userdropdown i {
+    margin-right: 50px;
+}
+
+#userdropdown1 i {
+    margin-right: 50px;
+}
+
+nav .container-fluid .nav.navbar-nav.navbar-right .dropdown .dropdown-item li a:hover {
+    transition: .3s all ease;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+}
+
+nav .container-fluid .dropdown .dropdown-item li a:hover {
+    transform: none;
+}
+
+nav .container-fluid .navbar-brand {
+    border-radius: 30px;
+}
+
+nav .container-fluid .collapse.navbar-collapse li {
+    border-radius: 30px;
+}
+
+
+
